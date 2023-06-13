@@ -1,0 +1,29 @@
+{
+  "name": "cli-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "start:dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jasinskimich/CLI-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jasinskimich/CLI-app/issues"
+  },
+  "homepage": "https://github.com/jasinskimich/CLI-app#readme",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "commander": "^10.0.1",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7",
+    "uuidv4": "^6.2.13",
+    "yargs": "^17.7.2"
+  }
+}
